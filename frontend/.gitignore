@@ -397,7 +397,6 @@ htmldocs/
 # Recommended template: Node.gitignore
 
 
-
 ### Kate template
 # Swap Files #
 .*.kate-swp
@@ -2720,6 +2719,7 @@ pickle-email-*.html
 # config/secrets.yml
 
 
+
 ## Environment normalization:
 /.bundle
 /vendor/bundle
@@ -4473,6 +4473,10 @@ Temporary Items
 
 # Ignore all logfiles and tempfiles.
 
+# Only include if you have production secrets in this file, which is no longer a Rails default
+# config/secrets.yml
+
+
 ## Environment normalization:
 
 # these should all be checked in to normalize the environment:
@@ -6003,8 +6007,6 @@ acs-*.bib
 # endnotes
 *.ent
 
-
-
 # feynmf/feynmp
 *.mf
 *.mp
@@ -6134,6 +6136,7 @@ pythontex-files-*/
 *.md5
 *.auxlock
 
+# todonotes
 *.tdo
 
 # vhistory
